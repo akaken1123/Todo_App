@@ -4,7 +4,7 @@ import type { FormEvent } from "react";
 import "./App.css";
 import Title from "./components/Title";
 import AddTask from "./components/AddTask";
-import Filter from "./components/filter";
+import Filter from "./components/filter.tsx";
 import TaskList from "./components/Tasklist";
 import type { Task, FilterType } from "./types";
 
